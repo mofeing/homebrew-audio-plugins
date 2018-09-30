@@ -6,11 +6,11 @@ cask 'tal-reverb-3' do
   name 'TAL-Reverb-3'
   homepage 'https://tal-software.com/products/tal-reverb'
 
-  pkg 'TAL-Reverb-2-installer.pkg'
+  pkg 'TAL-Reverb-3-installer.pkg'
 
   uninstall pkgutil: [
-                       'com.talsoftware.pkg.TAL-Reverb-4-AAX',
-                       'com.talsoftware.pkg.TAL-Reverb-4-AU',
-                       'com.talsoftware.pkg.TAL-Reverb-4-VST',
+                       'com.talsoftware.pkg.TAL-Reverb-3-AAX',
+                       'com.talsoftware.pkg.TAL-Reverb-3-AU',
+                       'com.talsoftware.pkg.TAL-Reverb-3-VST',
                      ]
 end

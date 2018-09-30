@@ -9,8 +9,8 @@ cask 'tal-reverb-2' do
   pkg 'TAL-Reverb-2-installer.pkg'
 
   uninstall pkgutil: [
-                       'com.talsoftware.pkg.TAL-Reverb-4-AAX',
-                       'com.talsoftware.pkg.TAL-Reverb-4-AU',
-                       'com.talsoftware.pkg.TAL-Reverb-4-VST',
+                       'com.talsoftware.pkg.TAL-Reverb-2-AAX',
+                       'com.talsoftware.pkg.TAL-Reverb-2-AU',
+                       'com.talsoftware.pkg.TAL-Reverb-2-VST',
                      ]
 end
