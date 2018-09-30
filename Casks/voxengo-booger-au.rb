@@ -1,4 +1,4 @@
-cask 'voxengo-booger-vst' do
+cask 'voxengo-booger-au' do
   version '2.3'
   sha256 'a43a0b68a5b5a081e461acdd6ef8bb9cdde0e14160f9a7cf90f069e8a62007ea'
 

@@ -1,4 +1,4 @@
-cask 'voxengo-span-vst' do
+cask 'voxengo-span-au' do
   version '3.1'
   sha256 '025163dbecae1da3c6ca5984109f3b94ee8fcbc6153242a905fa1a202d133efd'
 
