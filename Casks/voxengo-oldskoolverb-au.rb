@@ -1,6 +1,6 @@
 cask 'voxengo-oldskoolverb-au' do
   version '2.4.1'
-  sha256 '39cf098cf838506e1a559756faf8fed2f6a5a4cddefaadc4b134c46047d746ac'
+  sha256 'fce3fa30055ce9a67088d173820d5c3dbaec0aebe60c15f0d9ab85d34af995c7'
 
   url "https://www.voxengo.com/files/VoxengoOldSkoolVerb_#{version.no_dots}_Mac_AU_setup.dmg"
   name 'Voxengo OldSkoolVerb (AU)'
