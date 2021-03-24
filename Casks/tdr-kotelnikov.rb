@@ -6,6 +6,12 @@ cask 'tdr-kotelnikov' do
   name 'TDR Kotelnikov'
   homepage 'http://www.tokyodawn.net/tdr-kotelnikov/'
 
-  audio_unit_plugin 'TDR Kotelnikov.component'
-  vst_plugin 'TDR Kotelnikov.vst'
+  pkg "TDR Kotelnikov.pkg"
+
+  uninstall pkgutil: [
+    'com.TokyoDawnLabs.TDRKotelnikov.VST',
+    'com.TokyoDawnLabs.TDRKotelnikov.VST3',
+    'com.TokyoDawnLabs.TDRKotelnikov.AU',
+    'com.TokyoDawnLabs.TDRKotelnikov.AAX'
+  ]
 end
