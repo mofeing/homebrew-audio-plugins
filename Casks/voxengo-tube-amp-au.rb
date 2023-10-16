@@ -1,6 +1,6 @@
 cask 'voxengo-tube-amp-au' do
   version '2.5'
-  sha256 '1c3edaf2ffc3d093b6a2fd646e7f01c793f032b8b5017d8a074d7abcdd7dcdb4'
+  sha256 '62a42ce605c93453dde40720f16506d7b77935304042bb1c7e6622a4f93a283b'
 
   url "https://www.voxengo.com/files/VoxengoTubeAmp_#{version.no_dots}_Mac_AU_setup.dmg"
   name 'Voxengo Tube Amp (AU)'
