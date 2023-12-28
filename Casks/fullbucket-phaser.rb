@@ -3,7 +3,7 @@ cask "fullbucket-phaser" do
   sha256 "192eedf07ed559b9ef48deda479b8a37b30c42109b41e4da2d853cd004ef1d3b"
 
   url "https://www.fullbucket.de/music/dl/fbphaser_#{version.dots_to_underscores}_mac.pkg"
-  appcast "https://www.fullbucket.de/music/fbphaser.html"
+  livecheck "https://www.fullbucket.de/music/fbphaser.html"
   name "Full Bucket Phaser"
   desc "Analog phaser simulation"
   homepage "https://www.fullbucket.de/music/fbphaser.html"

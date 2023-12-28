@@ -4,7 +4,7 @@ cask "lkjb-qrange" do
 
   url "https://static.kvraudio.com/files/1924/lkjb_qrange_mac_#{version.no_dots}.zip",
       verified: "static.kvraudio.com/"
-  appcast "https://lkjbdsp.wordpress.com/qrange/"
+  livecheck "https://lkjbdsp.wordpress.com/qrange/"
   name "QRange"
   desc "IIR linear phase EQ"
   homepage "https://lkjbdsp.wordpress.com/qrange/"

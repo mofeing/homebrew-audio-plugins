@@ -3,7 +3,7 @@ cask "xfer-ott" do
   sha256 "458dae3cdd12d72277c1af7d5e5ddb6d386562ecffbf79e7743176ee47913b91"
 
   url "https://xferrecords.com/product_downloads/24/freeware"
-  appcast "https://xferrecords.com/freeware/"
+  livecheck "https://xferrecords.com/freeware/"
   name "OTT"
   desc "Multiband upwards/downwards compressor"
   homepage "https://xferrecords.com/freeware/"

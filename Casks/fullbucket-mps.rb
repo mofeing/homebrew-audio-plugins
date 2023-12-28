@@ -3,7 +3,7 @@ cask "fullbucket-mps" do
   sha256 "76b98ef9ca1c023989c1dff3ef0c3768122702274f0b805b8da9f2fd562dc08b"
 
   url "https://www.fullbucket.de/music/dl/mps_#{version.dots_to_underscores}_mac.pkg"
-  appcast "https://www.fullbucket.de/music/mps.html"
+  livecheck "https://www.fullbucket.de/music/mps.html"
   name "MPS"
   desc "Musical parameter synthesizer"
   homepage "https://www.fullbucket.de/music/mps.html"

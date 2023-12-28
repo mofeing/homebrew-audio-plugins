@@ -3,7 +3,7 @@ cask "tdr-nova67p" do
   sha256 "44d61f09aff16e217f934d8ad04319dd4a1e6246e8da322127423f0d5376f101"
 
   url "https://www.tokyodawn.net/labs/vladgsound/Nova67P_v#{version.dots_to_underscores}-Mac.dmg"
-  appcast "https://www.tokyodawn.net/vladg-nova-67p/",
+  livecheck "https://www.tokyodawn.net/vladg-nova-67p/",
           must_contain: version.dots_to_underscores
   name "VladG Nova-67P"
   homepage "https://www.tokyodawn.net/vladg-nova-67p/"

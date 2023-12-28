@@ -4,7 +4,7 @@ cask "discodsp-obxd" do
 
   url "https://www.discodsp.net/download/Obxd#{version.no_dots}Mac.zip",
       verified: "discodsp.net/"
-  appcast "https://github.com/reales/OB-Xd/releases.atom"
+  livecheck "https://github.com/reales/OB-Xd/releases.atom"
   name "OB-Xd"
   desc "Virtual analog synthesizer"
   homepage "https://www.discodsp.com/obxd/"

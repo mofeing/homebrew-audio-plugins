@@ -3,7 +3,7 @@ cask "tdr-molot" do
   sha256 "153e41be25d46a09512ba9ee566b4810f852db7a08dff6e2756216ce724ce0af"
 
   url "https://www.tokyodawn.net/labs/vladgsound/Molot#{version.no_dots}.dmg"
-  appcast "https://www.tokyodawn.net/vladg-molot-compressor/",
+  livecheck "https://www.tokyodawn.net/vladg-molot-compressor/",
           must_contain: version.no_dots
   name "VladG Molot Compressor"
   homepage "https://www.tokyodawn.net/vladg-molot-compressor/"

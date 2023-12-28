@@ -4,7 +4,7 @@ cask "dragonfly-reverb" do
 
   url "https://github.com/michaelwillis/dragonfly-reverb/releases/download/#{version}/DragonflyReverb-MacOS-64bit-v#{version}.zip",
       verified: "github.com/michaelwillis/dragonfly-reverb/"
-  appcast "https://github.com/michaelwillis/dragonfly-reverb/releases.atom"
+  livecheck "https://github.com/michaelwillis/dragonfly-reverb/releases.atom"
   name "Dragonfly Reverb"
   desc "Set of free reverb effects"
   homepage "https://michaelwillis.github.io/dragonfly-reverb/"

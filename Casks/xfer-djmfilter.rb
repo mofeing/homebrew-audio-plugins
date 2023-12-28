@@ -3,7 +3,7 @@ cask "xfer-djmfilter" do
   sha256 :no_check
 
   url "https://xferrecords.com/product_downloads/68/freeware"
-  appcast "https://xferrecords.com/freeware/"
+  livecheck "https://xferrecords.com/freeware/"
   name "DJMFilter"
   homepage "https://xferrecords.com/freeware/"
 

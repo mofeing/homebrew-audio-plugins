@@ -6,7 +6,7 @@ cask "xfer-8bitshaper" do
     require "open-uri"
     URI("https://xferrecords.com/product_downloads/28/freeware").open.base_uri.to_s
   end
-  appcast "https://xferrecords.com/freeware/"
+  livecheck "https://xferrecords.com/freeware/"
   name "8-Bit Shaper"
   homepage "https://xferrecords.com/freeware/"
 
