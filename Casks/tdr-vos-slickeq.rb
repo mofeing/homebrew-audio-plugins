@@ -6,6 +6,5 @@ cask 'tdr-vos-slickeq' do
   name 'TDR VOS SlickEQ'
   homepage 'http://www.tokyodawn.net/tdr-vos-slickeq/'
 
-  audio_unit_plugin 'TDR VOS SlickEQ.component'
-  vst_plugin 'TDR VOS SlickEQ.vst'
+  pkg "TDR VOS SlickEQ.pkg"
 end

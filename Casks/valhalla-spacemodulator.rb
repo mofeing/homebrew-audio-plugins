@@ -4,7 +4,7 @@ cask "valhalla-spacemodulator" do
 
   url "https://valhallaproduction.s3-us-west-2.amazonaws.com/spacemod/ValhallaSpaceModulatorOSX_#{version.dots_to_underscores}.zip",
       verified: "valhallaproduction.s3-us-west-2.amazonaws.com/"
-  appcast "https://valhalladsp.com/shop/modulation/valhalla-space-modulator/"
+  livecheck "https://valhalladsp.com/shop/modulation/valhalla-space-modulator/"
   name "Valhalla Space Modulator"
   homepage "https://valhalladsp.com/shop/modulation/valhalla-space-modulator/"
 

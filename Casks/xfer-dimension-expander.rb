@@ -3,7 +3,7 @@ cask "xfer-dimension-expander" do
   sha256 "a845850ab6e8f31188c1883cdef98d63f48af94efaf9355d8f01001d6ba9d6cd"
 
   url "https://xferrecords.com/product_downloads/32/freeware"
-  appcast "https://xferrecords.com/freeware/"
+  livecheck "https://xferrecords.com/freeware/"
   name "Dimension Expander"
   homepage "https://xferrecords.com/freeware/"
 

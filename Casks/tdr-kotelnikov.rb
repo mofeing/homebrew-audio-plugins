@@ -6,6 +6,5 @@ cask 'tdr-kotelnikov' do
   name 'TDR Kotelnikov'
   homepage 'http://www.tokyodawn.net/tdr-kotelnikov/'
 
-  audio_unit_plugin 'TDR Kotelnikov.component'
-  vst_plugin 'TDR Kotelnikov.vst'
+  pkg "TDR Kotelnikov.pkg"
 end

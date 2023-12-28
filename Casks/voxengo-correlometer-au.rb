@@ -3,7 +3,7 @@ cask "voxengo-correlometer-au" do
   sha256 "6fa80df55cc42a380c9281a7cd2c94448c3780a427e803ff8554005b5cd37121"
 
   url "https://www.voxengo.com/files/VoxengoCorrelometer_#{version.no_dots}_Mac_AU_AAX_setup.dmg"
-  appcast "https://www.voxengo.com/product/correlometer/",
+  livecheck "https://www.voxengo.com/product/correlometer/",
           must_contain: version.no_dots
   name "Voxengo Correlometer"
   desc "Multi-Band Correlometer"

@@ -4,7 +4,7 @@ cask "valhalla-supermassive" do
 
   url "https://valhallaproduction.s3-us-west-2.amazonaws.com/supermassive/ValhallaSupermassiveOSXBeta_#{version.dots_to_underscores}.zip",
       verified: "valhallaproduction.s3-us-west-2.amazonaws.com/"
-  appcast "https://valhalladsp.com/shop/reverb/valhalla-supermassive/"
+  livecheck "https://valhalladsp.com/shop/reverb/valhalla-supermassive/"
   name "Valhalla Supermassive"
   homepage "https://valhalladsp.com/shop/reverb/valhalla-supermassive/"
 

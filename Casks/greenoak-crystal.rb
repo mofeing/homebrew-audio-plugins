@@ -3,7 +3,7 @@ cask "greenoak-crystal" do
   sha256 "1ee5f86af00bdc2e754a218f3f1dbb138dd62ce5434071aa1254a1fdb52b1684"
 
   url "https://www.greenoak.com/crystal/dl/Crystal.dmg"
-  appcast "https://www.greenoak.com/crystal/dnld2.html",
+  livecheck "https://www.greenoak.com/crystal/dnld2.html",
           must_contain: version.major_minor
   name "Crystal"
   desc "Semi-modular synthesizer"

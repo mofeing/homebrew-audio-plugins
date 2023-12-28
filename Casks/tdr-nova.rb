@@ -6,6 +6,5 @@ cask 'tdr-nova' do
   name 'TDR Nova'
   homepage 'http://www.tokyodawn.net/tdr-nova/'
 
-  audio_unit_plugin 'TDR Nova.component'
-  vst_plugin 'TDR Nova.vst'
+  pkg "TDR Nova.pkg"
 end

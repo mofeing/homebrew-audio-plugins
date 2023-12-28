@@ -4,7 +4,7 @@ cask "valhalla-freqecho" do
 
   url "https://valhallaproduction.s3-us-west-2.amazonaws.com/freqecho/ValhallaFreqEchoOSX_#{version.dots_to_underscores}.zip",
       verified: "valhallaproduction.s3-us-west-2.amazonaws.com/"
-  appcast "https://valhalladsp.com/shop/delay/valhalla-freq-echo/"
+  livecheck "https://valhalladsp.com/shop/delay/valhalla-freq-echo/"
   name "Valhalla Freq Echo"
   homepage "https://valhalladsp.com/shop/delay/valhalla-freq-echo/"
 

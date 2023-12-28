@@ -3,7 +3,7 @@ cask "igorski-transformant" do
   sha256 "4274bd55d077d043819b52d4d24ae821209740263cad1e2061fec8b11e9e0ebe"
 
   url "https://www.igorski.nl/download/retrieve/#{version.after_comma}"
-  appcast "https://www.igorski.nl/download/transformant--multichannel-formantic-noise-processor"
+  livecheck "https://www.igorski.nl/download/transformant--multichannel-formantic-noise-processor"
   name "Transformant"
   homepage "https://www.igorski.nl/download/transformant--multichannel-formantic-noise-processor"
 

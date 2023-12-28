@@ -9,6 +9,6 @@ cask 'tdr-proximity' do
 
   container nested: 'macOS/Proximity-VST-AU.dmg'
 
-  audio_unit_plugin 'Proximity.component'
   vst_plugin 'Proximity.vst'
+  audio_unit_plugin 'Proximity.component'
 end

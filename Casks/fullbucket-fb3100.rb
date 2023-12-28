@@ -3,7 +3,7 @@ cask "fullbucket-fb3100" do
   sha256 "7a224a6fba5215999348d1698c9a637b52dbb7856da66d125b60ffae0589c3f2"
 
   url "https://www.fullbucket.de/music/dl/fb3100_#{version.dots_to_underscores}_mac.pkg"
-  appcast "https://www.fullbucket.de/music/fb3100.html"
+  livecheck "https://www.fullbucket.de/music/fb3100.html"
   name "FB-3100"
   desc "KORG PS-3100 simulation"
   homepage "https://www.fullbucket.de/music/fb3100.html"
